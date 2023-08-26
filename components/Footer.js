@@ -7,7 +7,7 @@ const Footer = () => {
     <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
             <a href="#">
-                <img class="w-auto h-13" src="/images/vasselimp logo.PNG" alt=""/>
+                <img class="w-auto h-13" src="/images/vasselimpLogo.png" alt=""/>
             </a>
 
             <div class="flex flex-wrap justify-center mt-6 -mx-4">

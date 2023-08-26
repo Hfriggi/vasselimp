@@ -18,7 +18,7 @@ const NavBar = () => {
         <nav className="bg-gray-900 border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link href="/" className="flex items-center">
-                <img src="/images/vasselimp logo.PNG" className="h-12 mr-4" alt="Company Logo" />
+                <img src="/images/vasselimpLogo.png" className="h-12 mr-4" alt="Company Logo" />
                 <span className="self-center text-xl font-semibold whitespace-nowrap text-white"></span>
             </Link>
             <button onClick={toggleMobileMenu} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 transition duration-500 ease-in-out" aria-controls="navbar-default" aria-expanded="false">
