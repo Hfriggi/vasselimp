@@ -20,7 +20,7 @@ const Apply = () => {
                 <h1 className="text-2xl font-bold text-white text-center pb-5">Vasselimp serviços de limpeza</h1>
               </div>
           </div>
-        <Link href="https://api.whatsapp.com/message/YFQZPI6DCBRZJ1?autoload=1&app_absent=0" passHref>
+        <Link href="https://api.whatsapp.com/send?phone=554788889999" passHref>
         <button onclick="buttonHandler()" title="WhatsApp"
         class="fixed z-90 bottom-10 right-8 bg-blue-600 w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"> <img src={"/images/whatss.png"} /></button>
         </Link>
