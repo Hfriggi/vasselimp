@@ -37,10 +37,10 @@ const NavBar = () => {
                 <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Resultados</Link>
                 </li>
                 <li>
-                <Link href="/Sobre" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Sobre nós</Link>
+                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Sobre nós</Link>
                 </li>
                 <li>
-                <Link href="/Contatos" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Contato</Link>
+                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Contato</Link>
                 </li>
             </ul>
             </div>
