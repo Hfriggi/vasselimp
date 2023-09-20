@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-8 mx-auto">
+    <footer class="bg-gray-900">
+    <div class="container px-6 py-8 mx-auto bg-gray-900">
         <div class="flex flex-col items-center text-center">
             <a href="#">
                 <img class="w-auto h-13" src="/images/vasselimpLogo.png" alt=""/>
