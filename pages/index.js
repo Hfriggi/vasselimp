@@ -11,7 +11,7 @@ export default function Home() {
         description="Vasselimp serviços de limpeza!"
       />
       <NavBar/>
-              <section
+              <section id='hero'
                 class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
               >
                 <div
@@ -45,7 +45,7 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-              <section>
+              <section id='servicos'>
               <div class="justify-center w-full text-center lg:p-10 max-auto">
                     <div class="justify-center w-full mx-auto">
               
@@ -101,7 +101,7 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-              <div class="justify-center w-full text-center lg:p-10 max-auto">
+              <div class="justify-center w-full text-center lg:p-10 max-auto" id='resultados'>
                     <div class="justify-center w-full mx-auto">
               
                       <p class="mt-8 text-4xl font-medium tracking-tighter text-black text-blue-500">
@@ -167,7 +167,7 @@ export default function Home() {
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </div>
 
-<section class="flex items-center bg-gray xl:h-screen font-poppins ">
+<section class="flex items-center bg-gray xl:h-screen font-poppins " id='sobre'>
         <div class="justify-center flex-1 max-w-6xl py-2 mx-auto lg:py-6 md:px-6">
             <div class="px-4 mb-10 md:text-center md:mb-20">
                 <p class="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
             <div class="flex flex-wrap ">
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                    <img src="https://i.postimg.cc/j5L5bX2d/pexels-andrea-piacquadio-3757946.jpg" alt=""
+                    <img src="/images/teto2.jpeg" alt=""
                         class="relative z-40 object-cover w-full h-96"/>
                 </div>
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">

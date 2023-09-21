@@ -4,7 +4,7 @@ export default function MyHead({ title, description, image, url }) {
     return (
         <Head>
             <title>{`${title}`}</title>
-            <link rel="icon" href="/images/vasselimp logo.png" />
+            <link rel="icon" href="/images/vasselimpLogo.png" />
             <meta name="description" content={description} />
             <meta property="og:title" content={title} key="title" />
             <meta property="og:description" content={description} key="description" />

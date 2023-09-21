@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
+import {Link} from 'react-scroll';
 
 const NavBar = () => {
     const router = useRouter()
@@ -15,8 +15,8 @@ const NavBar = () => {
 
     return (
     <>    
-        <nav className="bg-gray-900 border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <header className="bg-gray-900 border-gray-200 dark:bg-gray-900">
+        <div className="sticky top-0 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link href="/" className="flex items-center">
                 <img src="/images/vasselimpLogo.png" className="h-12 mr-4" alt="Company Logo" />
                 <span className="self-center text-xl font-semibold whitespace-nowrap text-white"></span>
@@ -28,24 +28,21 @@ const NavBar = () => {
             <div className={`${mobileMenuOpen ? "" : "hidden"} w-full md:block transition duration-500 ease-in-out md:w-auto focus:outline-none `} id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-800 bg-gray-800 md:bg-gray-900 border-gray-700">
                 <li>
-                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Inicio</Link>
+                <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Inicio</Link>
                 </li>
                 <li>
-                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Serviços</Link>
+                <Link to="servicos" spy={true} smooth={true} offset={-10} duration={500} className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Serviços</Link>
                 </li>
                 <li>
-                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Resultados</Link>
+                <Link to="resultados" spy={true} smooth={true} offset={-150} duration={500} className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200" aria-current="page">Resultados</Link>
                 </li>
                 <li>
-                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Sobre nós</Link>
-                </li>
-                <li>
-                <Link href="/" className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Contato</Link>
+                <Link to="sobre" spy={true} smooth={true} offset={0} duration={500} className="block py-2 pl-2 pr-2 text-white rounded hover:bg-gray-600 hover:text-blue-200">Sobre nós</Link>
                 </li>
             </ul>
             </div>
         </div>
-        </nav>
+        </header>
     </>
     )
 }
